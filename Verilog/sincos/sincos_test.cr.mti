@@ -1,0 +1,22 @@
+{C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/cordic_circular.v} {1 {vlog -work work -stats=none {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/cordic_circular.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cordic_circular
+
+Top level modules:
+	cordic_circular
+
+} {} {}} {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos_tb.v} {1 {vlog -work work -stats=none {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module sincos_tb
+
+Top level modules:
+	sincos_tb
+
+} {} {}} {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos.v} {1 {vlog -work work -stats=none {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module sincos
+
+Top level modules:
+	sincos
+
+} {} {}}

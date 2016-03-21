@@ -1,0 +1,22 @@
+{C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt.v} {1 {vlog -work work -stats=none {C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\logsqrt\logsqrt.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module logsqrt
+
+Top level modules:
+	logsqrt
+
+} {} {}} {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/cordic_hyperb.v} {1 {vlog -work work -stats=none {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/cordic_hyperb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cordic_hyperb
+
+Top level modules:
+	cordic_hyperb
+
+} {} {}} {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt_tb.v} {1 {vlog -work work -stats=none {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module logsqrt_tb
+
+Top level modules:
+	logsqrt_tb
+
+} {} {}}

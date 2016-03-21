@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos
+vcordic_hyperb
+Z0 !s110 1458510352
+!i10b 1
+!s100 _WPSG0XWn]ZjG>Xj8aQb:3
+I`V4`RSXOR839FFN<OE^O41
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt
+w1458509547
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/cordic_hyperb.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/cordic_hyperb.v
+Z3 Ffixedpt_funcs.vh
+L0 3
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1458510352.000000
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/cordic_hyperb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/cordic_hyperb.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vlogsqrt
+R0
+!i10b 1
+!s100 ZbaZ90:S7E:keTWPJ37<m3
+IWTE9QfM56Q0G>h_3P[>]>2
+R1
+R2
+w1458510265
+8C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\logsqrt\logsqrt.v
+FC:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\logsqrt\logsqrt.v
+R3
+L0 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\logsqrt\logsqrt.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\logsqrt\logsqrt.v|
+!s101 -O0
+!i113 1
+R6
+vlogsqrt_tb
+R0
+!i10b 1
+!s100 f=5BRE@34BP=3hambCHzo0
+I:8A<Bc<Bz1i==zIg5FXN93
+R1
+R2
+w1458510343
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt_tb.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1458510351.000000
+!s107 bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt/logsqrt_tb.v|
+!s101 -O0
+!i113 1
+R6

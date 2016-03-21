@@ -1,0 +1,17 @@
+{C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss.v} {2 {vlog -work work -stats=none {C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\tauss\tauss.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tauss
+** Warning: C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\tauss\tauss.v(49): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	tauss
+
+} {} {}} {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss_tb.v} {1 {vlog -work work -stats=none {C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss_tb.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module tauss_tb
+
+Top level modules:
+	tauss_tb
+
+} {} {}}

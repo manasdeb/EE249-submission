@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vcordic_circular
+Z0 !s110 1458497327
+!i10b 1
+!s100 ZZXeK`:ZG@R`IDB`R2ENh1
+I<30jMDLNUXK<eYm4RTA0L2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos
+w1458489407
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/cordic_circular.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/cordic_circular.v
+Z3 Ffixedpt_funcs.vh
+L0 3
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1458497327.000000
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/cordic_circular.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/cordic_circular.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vsincos
+R0
+!i10b 1
+!s100 0_YWC66OU9Ym9hIHaEFAE2
+I4[eSn34na:?IonU<`;KHa2
+R1
+R2
+w1458490764
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos.v
+R3
+L0 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos.v|
+!s101 -O0
+!i113 1
+R6
+vsincos_tb
+R0
+!i10b 1
+!s100 _>;bniZ?XChj65T>NW2`c1
+IRhY1ZWmAa>i?EDCR5aGEl2
+R1
+R2
+w1458497308
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos_tb.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos_tb.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/sincos/sincos_tb.v|
+!s101 -O0
+!i113 1
+R6

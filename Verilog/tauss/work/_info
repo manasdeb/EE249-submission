@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/logsqrt
+vtauss
+Z0 !s110 1458514028
+!i10b 1
+!s100 BDk?cj=BYOgQPAXYe_z7Y3
+I9df6QDJDm4_o_UlSg@zQJ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss
+w1458514016
+8C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\tauss\tauss.v
+FC:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\tauss\tauss.v
+L0 7
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1458514028.000000
+!s107 bm_constants.vh|C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\tauss\tauss.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\work\SCU\CourseWork\PhD courses\ELEN 249 - Topics in communication\project_2\temp\Verilog\test8\tauss\tauss.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vtauss_tb
+R0
+!i10b 1
+!s100 gdQ8S@5nHUk6Ln9bC@>MD1
+IRcg3I7oTdULXzbl9OjFd?3
+R1
+R2
+w1458511649
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss_tb.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/tauss/tauss_tb.v|
+!s101 -O0
+!i113 1
+R5
