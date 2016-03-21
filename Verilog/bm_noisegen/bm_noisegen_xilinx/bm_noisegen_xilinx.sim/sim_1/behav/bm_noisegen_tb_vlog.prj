@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../../cordic_circular.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../cordic_hyperb.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../sqrtunit.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../tauss.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../sincos.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../logunit.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../bm_noisegen.v" --include "../../../../"
+verilog xil_defaultlib  "../../../../bm_noisegen_tb.v" --include "../../../../"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

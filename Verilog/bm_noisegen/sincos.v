@@ -6,10 +6,13 @@
 `define TWO_S7_48                        56'sd562949953421312
 `define QUARTER_S7_48                    56'sd70368744177664
 `define HALFPI_S7_48                     56'sd442139859501778
+`define TWO_PI_S7_48                     56'sd1768559438007110
 `define LOG_2_S7_48                      56'sd195103586505167
 `define LOG_LIMIT_S7_48                  56'sd42221246506598
 `define SQRT_LOWER_LIMIT_S7_48           56'sd8444249301320
 `define SQRT_UPPER_LIMIT_S7_48           56'sd562949953421312
+`define MAX_OUTPUTVAL                    56'sd281474976710655
+`define MIN_OUTPUTVAL                    -56'sd281474976710656
 
 
 
@@ -23,49 +26,53 @@ result,
 valid_out
 );
 
-localparam IO_BITWIDTH = 56;
-localparam CORDIC_PIPELINE_DEPTH = 16;
+`include "fixedpt_funcs.vh"
+
+localparam IO_BITWIDTH = 16;
 localparam CORDIC_BITWIDTH = 56;
+localparam CORDIC_PIPELINE_DEPTH = 16;
 
 input clock, reset, valid_in;
 input op_type;
-input signed [IO_BITWIDTH-1:0] arg_in;
+input [IO_BITWIDTH-1:0] arg_in;
 output signed [IO_BITWIDTH-1:0] result;
 output valid_out;
 
 reg signed [CORDIC_BITWIDTH-1:0] cordic_arg;
+reg signed [CORDIC_BITWIDTH-1:0] temp_arg;
 reg signed [IO_BITWIDTH-1:0] result;
+reg signed [CORDIC_BITWIDTH-1:0] temp_result;
 reg valid_out;
 
 reg valid_in_circ;
 wire valid_out_circ;
-reg signbit_latch_in, signbit_latch_out;
-reg signbit[0:CORDIC_PIPELINE_DEPTH];
 reg [4:0] half_pi_angles_latch_in, half_pi_angles_latch_out;
 reg [4:0] half_pi_angles[0:CORDIC_PIPELINE_DEPTH];
 
 reg signed [CORDIC_BITWIDTH-1:0] x, y, z;
 wire signed [CORDIC_BITWIDTH-1:0] result_x, result_y, result_z;
 
+always @ (posedge reset) begin
+	valid_out = 0;
+	valid_in_circ = 0;
+	result = 0;
+end
+
 always @ (posedge clock) begin
 	if (!reset) begin
 		if (valid_in) begin
-			if (arg_in < 0) begin
-				signbit_latch_in = 1;
+			// The input argument is 16-bits wide. However, the CORDIC uses 48 bits
+			// internally
+			temp_arg = arg_in;
+			temp_arg = temp_arg <<< 32;
 
-				if (op_type == `OPTYPE_COS)
-					cordic_arg = fixedpt_add(-arg_in, `HALFPI_S7_48);
-				else
-					cordic_arg = -arg_in;
-			end
-			else begin
-				signbit_latch_in = 0;
+			// Multiply the input argument by 2*pi
+			temp_arg = fixedpt_mul(temp_arg, `TWO_PI_S7_48);
 
-				if (op_type == `OPTYPE_COS)
-					cordic_arg = fixedpt_add(arg_in, `HALFPI_S7_48);
-				else
-					cordic_arg = arg_in;
-			end
+			if (op_type == `OPTYPE_COS)
+				cordic_arg = fixedpt_add(temp_arg, `HALFPI_S7_48);
+			else
+				cordic_arg = temp_arg;
 
 			half_pi_angles_latch_in = 0;
 
@@ -90,7 +97,7 @@ always @ (posedge clock) begin
 end
 
 
-// Move the pipeline forward
+
 always @ (posedge clock) begin
 	if (!reset) begin
 		if (valid_in) begin
@@ -112,25 +119,6 @@ always @ (posedge clock) begin
 			half_pi_angles[15] <= half_pi_angles[14];
 			half_pi_angles[16] <= half_pi_angles[15];
 			half_pi_angles_latch_out <= half_pi_angles[16];
-	
-			signbit[0] <= signbit_latch_in;
-			signbit[1] <= signbit[0];
-			signbit[2] <= signbit[1];
-			signbit[3] <= signbit[2];
-			signbit[4] <= signbit[3];
-			signbit[5] <= signbit[4];
-			signbit[6] <= signbit[5];
-			signbit[7] <= signbit[6];
-			signbit[8] <= signbit[7];
-			signbit[9] <= signbit[8];
-			signbit[10] <= signbit[9];
-			signbit[11] <= signbit[10];
-			signbit[12] <= signbit[11];
-			signbit[13] <= signbit[12];
-			signbit[14] <= signbit[13];
-			signbit[15] <= signbit[14];
-			signbit[16] <= signbit[15];
-			signbit_latch_out <= signbit[16];
 		end
 	end
 end
@@ -141,31 +129,42 @@ always @ (posedge clock) begin
 			case (half_pi_angles_latch_out)
 				2'd0:
 					begin
-						result <= signbit_latch_out ? -result_y : result_y;
+						 temp_result = result_y;	
+
 					end
 
 				2'd1:
 					begin
-						result <= signbit_latch_out ? -result_x : result_x;
+						temp_result = result_x;	
 					end
 
 				2'd2:
 					begin
-						result <= signbit_latch_out ? result_y : -result_y;
+						temp_result = -result_y;
 					end
 
 				2'd3:
 					begin
-						result <= signbit_latch_out ? result_x : -result_x;
+						temp_result = -result_x;
 					end
 			endcase
 
+			if (temp_result > `MAX_OUTPUTVAL)
+				temp_result = `MAX_OUTPUTVAL;
+			else if (temp_result < `MIN_OUTPUTVAL)
+				temp_result = `MIN_OUTPUTVAL;
+
+			temp_result = temp_result >>> 32;
+			if (temp_result[0] == 1)
+					temp_result = temp_result + 1;
+			temp_result = temp_result >>> 1;
+
+			result = temp_result[15:0];
 			valid_out <= 1;
 		end
 	end
 end
 
-`include "fixedpt_funcs.vh"
 
 cordic_circular CORDIC_CIRC(
 .clock (clock),

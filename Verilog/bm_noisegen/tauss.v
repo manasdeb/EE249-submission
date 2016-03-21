@@ -30,6 +30,7 @@ begin
 	S0 = seed_in ^ `S0_GENERATOR;
 	S1 = seed_in ^ `S1_GENERATOR;
 	S2 = seed_in ^ `S2_GENERATOR;
+	urng_out = 0;
 end
 else
 begin
@@ -46,7 +47,7 @@ begin
 	urng_out = S0 ^ S1 ^ S2;
 end
 
-endmodule;
+endmodule
 
 
 

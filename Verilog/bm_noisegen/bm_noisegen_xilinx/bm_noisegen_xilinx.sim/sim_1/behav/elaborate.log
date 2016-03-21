@@ -1,0 +1,21 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.4/bin/unwrapped/win64.o/xelab.exe -wto 1de0f0fd8106411283bcdd90f70f4c63 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bm_noisegen_tb_behav xil_defaultlib.bm_noisegen_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen_xilinx/bm_noisegen_xilinx.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen_xilinx/bm_noisegen_xilinx.sim/sim_1/behav/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tauss
+Compiling module xil_defaultlib.cordic_circular
+Compiling module xil_defaultlib.sincos
+Compiling module xil_defaultlib.cordic_hyperb
+Compiling module xil_defaultlib.logunit
+Compiling module xil_defaultlib.sqrtunit
+Compiling module xil_defaultlib.bm_noisegen
+Compiling module xil_defaultlib.bm_noisegen_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot bm_noisegen_tb_behav

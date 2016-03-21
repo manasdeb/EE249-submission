@@ -1,0 +1,38 @@
+
+*** Running vivado
+    with args -log bm_noisegen.vds -m64 -mode batch -messageDb vivado.pb -notrace -source bm_noisegen.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source bm_noisegen.tcl -notrace
+Command: synth_design -top bm_noisegen -part xc7k70tfbg484-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 265.020 ; gain = 93.414
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'bm_noisegen' [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen.v:4]
+	Parameter URNG_PIPELINE_DEPTH bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'tauss' [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/tauss.v:7]
+INFO: [Synth 8-256] done synthesizing module 'tauss' (1#1) [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/tauss.v:7]
+INFO: [Synth 8-638] synthesizing module 'sincos' [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v:19]
+	Parameter IO_BITWIDTH bound to: 16 - type: integer 
+	Parameter CORDIC_BITWIDTH bound to: 56 - type: integer 
+	Parameter CORDIC_PIPELINE_DEPTH bound to: 16 - type: integer 
+ERROR: [Synth 8-660] unable to resolve 'fixedpt_mul' [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v:70]
+ERROR: [Synth 8-285] failed synthesizing module 'sincos' [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v:19]
+ERROR: [Synth 8-285] failed synthesizing module 'bm_noisegen' [C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 302.164 ; gain = 130.559
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 21 09:38:56 2016...

@@ -1,0 +1,183 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vbm_noisegen
+Z0 !s110 1458576453
+!i10b 1
+!s100 9:N02QESe?AnH9YLS:KZb0
+IGMi3dbYhdGaa`nGAHGi4c3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen
+w1458575434
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen.v
+L0 4
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1458576453.000000
+!s107 bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vbm_noisegen_tb
+R0
+!i10b 1
+!s100 DmRACl?b3gAmLR8bgcm1O1
+IFUa2e[]lKIT0eA:@38d;j0
+R1
+R2
+w1458576450
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen_tb.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen_tb.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/bm_noisegen_tb.v|
+!s101 -O0
+!i113 1
+R5
+vcordic_circular
+R0
+!i10b 1
+!s100 4i3G2@`SCbA6GO;JS]ZLW3
+IjCA1nFc9Pe=Y3@R7A4TPo1
+R1
+R2
+w1458517107
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_circular.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_circular.v
+Z6 Ffixedpt_funcs.vh
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_circular.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_circular.v|
+!s101 -O0
+!i113 1
+R5
+vcordic_hyperb
+R0
+!i10b 1
+!s100 SVH2kk8zb]E;e<EYz6QCR0
+I=38>JZ;j9o:jTKE6OMA0U2
+R1
+R2
+w1458517131
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_hyperb.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_hyperb.v
+R6
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_hyperb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/cordic_hyperb.v|
+!s101 -O0
+!i113 1
+R5
+vlogunit
+R0
+!i10b 1
+!s100 JJG;=T1I6RRUhcz@P[L7K2
+I7n[@VCD@N[LgBdTGI9V^c3
+R1
+R2
+w1458572988
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/logunit.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/logunit.v
+R6
+Z7 L0 15
+R3
+r1
+!s85 0
+31
+R4
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/logunit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/logunit.v|
+!s101 -O0
+!i113 1
+R5
+vsincos
+R0
+!i10b 1
+!s100 7_zDo`N1Gl5P_7aNT6^V>0
+I`mdmTMPkV[A?<az3L2<gd2
+R1
+R2
+w1458572913
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v
+R6
+L0 19
+R3
+r1
+!s85 0
+31
+R4
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sincos.v|
+!s101 -O0
+!i113 1
+R5
+vsqrtunit
+!s110 1458576454
+!i10b 1
+!s100 TA<JV^99e_D`NW@C]EQ;F3
+IPW1kaPM5Al;Ecji<LE6oN1
+R1
+R2
+w1458573372
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sqrtunit.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sqrtunit.v
+R6
+R7
+R3
+r1
+!s85 0
+31
+R4
+!s107 fixedpt_funcs.vh|bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sqrtunit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/sqrtunit.v|
+!s101 -O0
+!i113 1
+R5
+vtauss
+R0
+!i10b 1
+!s100 _z:EWMkEzaRIAJ4?Rjg^z1
+IjV1HffRJT_ee9^E@1nmd73
+R1
+R2
+w1458572942
+8C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/tauss.v
+FC:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/tauss.v
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+!s107 bm_constants.vh|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/tauss.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/work/SCU/CourseWork/PhD courses/ELEN 249 - Topics in communication/project_2/temp/Verilog/test8/bm_noisegen/tauss.v|
+!s101 -O0
+!i113 1
+R5
